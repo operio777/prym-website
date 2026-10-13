@@ -1,0 +1,23 @@
+name: PRYM testy SEO i przegladarkowe
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [codex/prym-kompleksowy-audyt-seo]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Zainstaluj zaleznosci
+        run: npm install --no-audit --no-fund
+      - name: Test statyczny
+        run: npm test
+      - name: Zainstaluj Chromium i zaleznosci systemowe
+        run: npx playwright install --with-deps chromium
+      - name: Test przegladarkowy
+        run: npm run test:browser
