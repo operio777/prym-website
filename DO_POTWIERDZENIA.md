@@ -1,7 +1,8 @@
 # Dane wymagające potwierdzenia przed aktywacją pełnego kontaktu
 
-- publiczny numer telefonu;
-- publiczny adres e-mail oraz adres odbiorczy formularza;
+- publiczny numer telefonu: potwierdzony, +48 723 290 565;
+- publiczny e-mail: potwierdzony, Michnaszymon30@gmail.com;
+- pełne automatyczne wysyłanie formularza nadal wymaga wybranego dostawcy;
 - decyzja o usłudze formularzowej zgodnej ze statycznym hostingiem (np. Formspree) i jej warunki prywatności;
 - adres fizyczny firmy, jeżeli ma być publikowany;
 - materiały, technologie i systemy ociepleń stosowane przez PRYM;
@@ -11,5 +12,5 @@
 - czy informacja o rozpoczęciu działalności w 2024 roku ma być publikowana;
 - parametry i ograniczenia urządzenia do druku ściennego.
 
-Obecny formularz nie wysyła ani nie zapisuje danych. Waliduje pola, ma pułapkę honeypot i minimalny czas wypełnienia, a następnie kopiuje treść lokalnie do schowka. Po otrzymaniu danych kontaktowych należy podłączyć zatwierdzony kanał wysyłki, dodać wymagane informacje o administratorze danych i ponownie przetestować całą ścieżkę.
+Obecny formularz nie wysyła ani nie zapisuje danych na serwerze. Po walidacji otwiera aplikację e-mail użytkownika przez mailto: z przygotowanym tematem i treścią; użytkownik musi sam wysłać wiadomość. Formularz ma pole honeypot. Po otrzymaniu danych kontaktowych należy podłączyć zatwierdzony kanał wysyłki, dodać wymagane informacje o administratorze danych i ponownie przetestować całą ścieżkę.
 
