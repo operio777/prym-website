@@ -57,7 +57,7 @@ Pełna wysyłka formularza pozostaje zablokowana do czasu podania zatwierdzonego
 
 ## G. Publikacja
 
-Zmiany przygotowano na osobnej gałęzi; PR ma być skierowany do `main` i nie może być mergowany automatycznie. Po otwarciu PR należy sprawdzić kartę Files changed, wyniki testów oraz preview, a następnie wykonać merge dopiero po akceptacji właściciela.
+Zmiany przygotowano na osobnej gałęzi. Pull Request #6: https://github.com/operio777/prym-website/pull/6. PR jest skierowany do `main` i nie został zmergowany. Należy sprawdzić kartę Files changed, wyniki testów oraz preview, a następnie wykonać merge dopiero po akceptacji właściciela.
 
 ## H. Następne działania po wdrożeniu
 
