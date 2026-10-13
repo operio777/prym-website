@@ -1,0 +1,2 @@
+{"name":"prym-website","private":true,"scripts":{"test":"node tests/audit.mjs","test:browser":"node tests/browser.mjs"}}
+
