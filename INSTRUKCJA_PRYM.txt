@@ -1,0 +1,15 @@
+PRYM — wersja demonstracyjna do akceptacji
+
+1. Wypakuj archiwum w dowolnym folderze tymczasowym.
+2. Skopiuj plik index.html oraz plik .nojekyll (moze byc ukryty w Windows) do:
+   C:\Users\Msi\Desktop\PROJEKTY_KLIENTOW\prym-website\
+3. Nie usuwaj istniejących README.md ani .gitattributes.
+4. W GitHub Desktop wpisz komunikat commitu: Dodanie strony demonstracyjnej PRYM
+5. Kliknij Commit to main, a nastepnie Push origin.
+6. Uruchom GitHub Pages: repozytorium na github.com -> Settings -> Pages -> Deploy from a branch -> main / (root) -> Save.
+7. Zobacz URL GitHub Pages na stronie Settings -> Pages po zakonczeniu publikacji.
+
+UWAGA: Strona ma oznaczenie noindex,nofollow i napis 'Projekt do akceptacji'. Nie jest gotowa do publicznego wdrozenia SEO.
+Formularz NIE wysyla e-maili, tylko kopiuje tresc zapytania.
+Nie dodawaj hasel ani danych poufnych do publicznego repozytorium.
+Domeny prym-rzeszow.pl nie podlaczaj, dopoki nie sprawdzimy strony pod tymczasowym adresem GitHub Pages.
