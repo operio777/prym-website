@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://prym-rzeszow.pl/sitemap.xml
