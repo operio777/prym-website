@@ -3,7 +3,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 
 const root=path.resolve(import.meta.dirname,'..');
-const pages=['index.html','elewacje-rzeszow.html','ocieplenia-rzeszow.html','druk-scienny.html','realizacje.html'];
+const pages=['index.html','elewacje-rzeszow.html','ocieplenia-rzeszow.html','ocieplenia-poddaszy-rzeszow.html','druk-scienny.html','realizacje.html'];
 const expectedUrls=pages.map(file=>file==='index.html'?'https://prym-rzeszow.pl/':`https://prym-rzeszow.pl/${file}`);
 const errors=[];
 const result={pages:{},images:{files:0,duplicates:0,brokenReferences:0,unused:0,totalBytes:0,dimensions:{}}};
