@@ -12,3 +12,7 @@ a{color:inherit;text-underline-offset:.18em}img{max-width:100%;height:auto}.wrap
 .owner-contact{font-size:1.05rem}.contact-actions{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}.alt-contact{background:#e4dfd4;color:var(--ink)}.contact-actions .pill{white-space:normal}.footer a{text-decoration:underline}
 
 @media(max-width:560px){.hero h1,.service-hero h1{font-size:clamp(2.6rem,11vw,3.7rem);overflow-wrap:anywhere}.grid>* ,.cards>*{min-width:0}.heading,.split,.service-hero .wrap{min-width:0}main{min-width:0}}
+
+/* Four service cards and a wider menu on desktop */
+@media(min-width:901px){.cards{grid-template-columns:repeat(4,minmax(0,1fr))}.navlinks{gap:12px;font-size:.78rem}}
+@media(min-width:901px) and (max-width:1120px){.nav{gap:12px}.navlinks{gap:9px;font-size:.72rem}}
